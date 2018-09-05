@@ -1,0 +1,250 @@
+{
+ "captchaResult": "CAPTCHA_NOT_NEEDED",
+ "kind": "pagespeedonline#result",
+ "id": "http://rushauto.ru/",
+ "responseCode": 200,
+ "title": "Срочный выкуп авто. Выкуп автомобилей в Москве и области +7 (967) 055-55-85",
+ "ruleGroups": {
+  "SPEED": {
+   "score": 90
+  }
+ },
+ "loadingExperience": {
+  "initial_url": "http://rushauto.ru/"
+ },
+ "pageStats": {
+  "numberResources": 24,
+  "numberHosts": 5,
+  "totalRequestBytes": "4689",
+  "numberStaticResources": 17,
+  "htmlResponseBytes": "30383",
+  "overTheWireResponseBytes": "390309",
+  "cssResponseBytes": "55777",
+  "imageResponseBytes": "168931",
+  "javascriptResponseBytes": "273628",
+  "otherResponseBytes": "74723",
+  "numberJsResources": 6,
+  "numberCssResources": 2,
+  "numTotalRoundTrips": 8,
+  "numRenderBlockingRoundTrips": 1
+ },
+ "formattedResults": {
+  "locale": "ru",
+  "ruleResults": {
+   "AvoidLandingPageRedirects": {
+    "localizedRuleName": "Не используйте переадресацию с целевой страницы",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "На вашей странице нет переадресаций. Подробнее о том, {{BEGIN_LINK}}как избегать переадресаций на целевых страницах{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/AvoidRedirects"
+      }
+     ]
+    }
+   },
+   "EnableGzipCompression": {
+    "localizedRuleName": "Включите сжатие",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Сжатие включено. Подробнее о том, {{BEGIN_LINK}}как включить сжатие{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/EnableCompression"
+      }
+     ]
+    }
+   },
+   "LeverageBrowserCaching": {
+    "localizedRuleName": "Используйте кеш браузера",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Кеширование в браузере включено. Подробнее о том, {{BEGIN_LINK}}как использовать кеширование в браузере{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/LeverageBrowserCaching"
+      }
+     ]
+    }
+   },
+   "MainResourceServerResponseTime": {
+    "localizedRuleName": "Сократите время ответа сервера",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Ваш сервер ответил быстро. Подробнее о том, {{BEGIN_LINK}}как сократить время ответа сервера{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/Server"
+      }
+     ]
+    }
+   },
+   "MinifyCss": {
+    "localizedRuleName": "Сократите CSS",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Код CSS сокращен. Подробнее о том, {{BEGIN_LINK}}как сокращать код CSS{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+      }
+     ]
+    }
+   },
+   "MinifyHTML": {
+    "localizedRuleName": "Сократите HTML",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "HTML-код сокращен. Подробнее о том, {{BEGIN_LINK}}как сокращать HTML-код{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+      }
+     ]
+    }
+   },
+   "MinifyJavaScript": {
+    "localizedRuleName": "Сократите JavaScript",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Код JavaScript сокращен. Подробнее о том, {{BEGIN_LINK}}как сокращать код JavaScript{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+      }
+     ]
+    }
+   },
+   "MinimizeRenderBlockingResources": {
+    "localizedRuleName": "Удалите код JavaScript и CSS, блокирующий отображение верхней части страницы",
+    "ruleImpact": 10.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Количество блокирующих ресурсов CSS на странице: {{NUM_CSS}}. Они замедляют отображение контента.",
+     "args": [
+      {
+       "type": "INT_LITERAL",
+       "key": "NUM_CSS",
+       "value": "1"
+      }
+     ]
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Примерно {{PERCENTAGE}} содержания верхней части страницы можно отобразить, не дожидаясь загрузки указанных далее ресурсов. Попробуйте отложить ее или асинхронно загрузить блокирующие ресурсы либо встроить их особо важные составляющие прямо в код HTML.",
+       "args": [
+        {
+         "type": "PERCENTAGE",
+         "key": "PERCENTAGE",
+         "value": "26 %"
+        }
+       ]
+      }
+     },
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Оптимизируйте работу CSS{{END_LINK}} на следующих ресурсах:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "{{URL}}",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://rushauto.ru/temple/css/style.css"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "OptimizeImages": {
+    "localizedRuleName": "Оптимизируйте изображения",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Изображения оптимизированы. Подробнее о том, {{BEGIN_LINK}}как оптимизировать изображения{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/OptimizeImages"
+      }
+     ]
+    }
+   },
+   "PrioritizeVisibleContent": {
+    "localizedRuleName": "Оптимизируйте загрузку видимого контента",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Содержание верхней части страницы оптимизировано для быстрого отображения. Подробнее о том, {{BEGIN_LINK}}как обеспечить быстрое отображение видимой части страницы{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent"
+      }
+     ]
+    }
+   }
+  }
+ },
+ "version": {
+  "major": 1,
+  "minor": 15
+ }
+}

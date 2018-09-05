@@ -1,0 +1,507 @@
+{
+ "captchaResult": "CAPTCHA_NOT_NEEDED",
+ "kind": "pagespeedonline#result",
+ "id": "http://autofresh.pro/",
+ "responseCode": 200,
+ "title": "Купить запчасти Б/У, запчасти с разборки. Магазин автозапчастей",
+ "ruleGroups": {
+  "SPEED": {
+   "score": 76
+  }
+ },
+ "loadingExperience": {
+  "initial_url": "http://autofresh.pro/"
+ },
+ "pageStats": {
+  "numberResources": 39,
+  "numberHosts": 8,
+  "totalRequestBytes": "6691",
+  "numberStaticResources": 26,
+  "htmlResponseBytes": "88760",
+  "overTheWireResponseBytes": "664065",
+  "cssResponseBytes": "386412",
+  "imageResponseBytes": "300403",
+  "javascriptResponseBytes": "549206",
+  "otherResponseBytes": "120085",
+  "numberJsResources": 7,
+  "numberCssResources": 7,
+  "numTotalRoundTrips": 16,
+  "numRenderBlockingRoundTrips": 4
+ },
+ "formattedResults": {
+  "locale": "ru",
+  "ruleResults": {
+   "AvoidLandingPageRedirects": {
+    "localizedRuleName": "Не используйте переадресацию с целевой страницы",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "На вашей странице нет переадресаций. Подробнее о том, {{BEGIN_LINK}}как избегать переадресаций на целевых страницах{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/AvoidRedirects"
+      }
+     ]
+    }
+   },
+   "EnableGzipCompression": {
+    "localizedRuleName": "Включите сжатие",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Сжатие включено. Подробнее о том, {{BEGIN_LINK}}как включить сжатие{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/EnableCompression"
+      }
+     ]
+    }
+   },
+   "LeverageBrowserCaching": {
+    "localizedRuleName": "Используйте кеш браузера",
+    "ruleImpact": 0.4166666666666667,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Если указывать в заголовках HTTP дату или срок действия статических ресурсов, браузер будет загружать уже полученные ранее ресурсы с локального диска, а не из Интернета."
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Используйте кеш браузера{{END_LINK}} для следующих ресурсов:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/LeverageBrowserCaching"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "{{URL}} ({{LIFETIME}})",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://www.google-analytics.com/ga.js"
+          },
+          {
+           "type": "DURATION",
+           "key": "LIFETIME",
+           "value": "2 часа"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MainResourceServerResponseTime": {
+    "localizedRuleName": "Сократите время ответа сервера",
+    "ruleImpact": 6.77,
+    "groups": [
+     "SPEED"
+    ],
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "По результатам тестирования время ответа вашего сервера составило {{RESPONSE_TIME}}. На этот показатель влияет много факторов. {{BEGIN_LINK}}Ознакомьтесь с нашими рекомендациями{{END_LINK}} и узнайте, как можно отслеживать и измерять время ответа.",
+       "args": [
+        {
+         "type": "DURATION",
+         "key": "RESPONSE_TIME",
+         "value": "0,88 секунды"
+        },
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/Server"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "MinifyCss": {
+    "localizedRuleName": "Сократите CSS",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Код CSS сокращен. Подробнее о том, {{BEGIN_LINK}}как сокращать код CSS{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+      }
+     ]
+    }
+   },
+   "MinifyHTML": {
+    "localizedRuleName": "Сократите HTML",
+    "ruleImpact": 0.19290000000000002,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Сжатие HTML-кода (в том числе встроенного кода JavaScript или CSS) позволяет сократить объем данных, чтобы ускорить загрузку и обработку."
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Сократите код HTML{{END_LINK}} на следующих ресурсах, чтобы уменьшить их размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+        },
+        {
+         "type": "BYTES",
+         "key": "SIZE_IN_BYTES",
+         "value": "1,9 КБ"
+        },
+        {
+         "type": "PERCENTAGE",
+         "key": "PERCENTAGE",
+         "value": "14 %"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Сокращение {{URL}} позволит уменьшить размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}) после сжатия.",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://autofresh.pro/"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "1,9 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "14 %"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MinifyJavaScript": {
+    "localizedRuleName": "Сократите JavaScript",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Код JavaScript сокращен. Подробнее о том, {{BEGIN_LINK}}как сокращать код JavaScript{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+      }
+     ]
+    }
+   },
+   "MinimizeRenderBlockingResources": {
+    "localizedRuleName": "Удалите код JavaScript и CSS, блокирующий отображение верхней части страницы",
+    "ruleImpact": 8.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Количество блокирующих скриптов на странице: {{NUM_SCRIPTS}}. Количество блокирующих ресурсов CSS на странице: {{NUM_CSS}}. Они замедляют отображение контента.",
+     "args": [
+      {
+       "type": "INT_LITERAL",
+       "key": "NUM_SCRIPTS",
+       "value": "2"
+      },
+      {
+       "type": "INT_LITERAL",
+       "key": "NUM_CSS",
+       "value": "6"
+      }
+     ]
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Все содержание верхней части страницы отображается только после загрузки указанных далее ресурсов. Попробуйте отложить загрузку этих ресурсов, загружать их асинхронно или встроить их самые важные компоненты непосредственно в код HTML."
+      }
+     },
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Удалите код JavaScript, препятствующий отображению{{END_LINK}}:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/BlockingJS"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "{{URL}}",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://autofresh.pro/ns-cache/_d04fb306777e3d9c3b143a35dc0014d4.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}}",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://autofresh.pro/catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.js"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Оптимизируйте работу CSS{{END_LINK}} на следующих ресурсах:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "{{URL}}",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://autofresh.pro/catalog/view/javascript/bootstrap/css/bootstrap.min.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}}",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://autofresh.pro/ns-cache/_690af1b77b3334d33a51e20ad177bb1e.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}}",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://autofresh.pro/catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}}",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://autofresh.pro/catalog/view/theme/default/stylesheet/mycategoryhome.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}}",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://autofresh.pro/catalog/view/theme/newstore/stylesheet/csscallback.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}}",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://autofresh.pro/catalog/view/theme/newstore/stylesheet/popup-found_cheaper_product/stylefcp.css"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "OptimizeImages": {
+    "localizedRuleName": "Оптимизируйте изображения",
+    "ruleImpact": 14.589900000000002,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Правильный формат и сжатие изображений позволяет сократить их объем."
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Оптимизируйте следующие изображения{{END_LINK}}, чтобы уменьшить их размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/OptimizeImages"
+        },
+        {
+         "type": "BYTES",
+         "key": "SIZE_IN_BYTES",
+         "value": "142,5 КБ"
+        },
+        {
+         "type": "PERCENTAGE",
+         "key": "PERCENTAGE",
+         "value": "70 %"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Сжатие страницы {{URL}} уменьшит ее размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://autofresh.pro/image/cache/catalog/banners/banner2-1150x263.jpg"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "141,8 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "71 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Сжатие страницы {{URL}} уменьшит ее размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://autofresh.pro/catalog/view/theme/newstore/image/carousel-prev.png"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "350 Б"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "33 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Сжатие страницы {{URL}} уменьшит ее размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://autofresh.pro/catalog/view/theme/newstore/image/carousel-next.png"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "349 Б"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "34 %"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "PrioritizeVisibleContent": {
+    "localizedRuleName": "Оптимизируйте загрузку видимого контента",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Содержание верхней части страницы оптимизировано для быстрого отображения. Подробнее о том, {{BEGIN_LINK}}как обеспечить быстрое отображение видимой части страницы{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent"
+      }
+     ]
+    }
+   }
+  }
+ },
+ "version": {
+  "major": 1,
+  "minor": 15
+ }
+}

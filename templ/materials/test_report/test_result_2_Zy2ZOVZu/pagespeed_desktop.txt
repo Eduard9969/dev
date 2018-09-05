@@ -1,0 +1,1742 @@
+{
+ "captchaResult": "CAPTCHA_NOT_NEEDED",
+ "kind": "pagespeedonline#result",
+ "id": "http://kn.pstu.edu/",
+ "responseCode": 200,
+ "title": "Кафедра Компьютерных Наук",
+ "ruleGroups": {
+  "SPEED": {
+   "score": 0
+  }
+ },
+ "loadingExperience": {
+  "initial_url": "http://kn.pstu.edu/"
+ },
+ "pageStats": {
+  "numberResources": 42,
+  "numberHosts": 1,
+  "totalRequestBytes": "3196",
+  "numberStaticResources": 34,
+  "htmlResponseBytes": "55493",
+  "overTheWireResponseBytes": "20448007",
+  "cssResponseBytes": "403995",
+  "imageResponseBytes": "19632073",
+  "javascriptResponseBytes": "284294",
+  "otherResponseBytes": "72152",
+  "numberJsResources": 5,
+  "numberCssResources": 3,
+  "numTotalRoundTrips": 22,
+  "numRenderBlockingRoundTrips": 6
+ },
+ "formattedResults": {
+  "locale": "ru",
+  "ruleResults": {
+   "AvoidLandingPageRedirects": {
+    "localizedRuleName": "Не используйте переадресацию с целевой страницы",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "На вашей странице нет переадресаций. Подробнее о том, {{BEGIN_LINK}}как избегать переадресаций на целевых страницах{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/AvoidRedirects"
+      }
+     ]
+    }
+   },
+   "EnableGzipCompression": {
+    "localizedRuleName": "Включите сжатие",
+    "ruleImpact": 42.770900000000005,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Сжатие ресурсов с помощью функций gzip или deflate позволяет сократить объем данных, передаваемых по сети."
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Включите сжатие{{END_LINK}} для следующих ресурсов, чтобы уменьшить объем передаваемых данных на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/EnableCompression"
+        },
+        {
+         "type": "BYTES",
+         "key": "SIZE_IN_BYTES",
+         "value": "417,7 КБ"
+        },
+        {
+         "type": "PERCENTAGE",
+         "key": "PERCENTAGE",
+         "value": "57 %"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Сжатие страницы {{URL}} уменьшит ее размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/themes/kn/style.css"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "183,1 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "48 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Сжатие страницы {{URL}} уменьшит ее размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/themes/kn/assets/app.bundle.js"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "102 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "68 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Сжатие страницы {{URL}} уменьшит ее размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-includes/js/jquery/jquery.js?ver=1.10.2"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "58,9 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "64 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Сжатие страницы {{URL}} уменьшит ее размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "43,6 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "80 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Сжатие страницы {{URL}} уменьшит ее размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/plugins/lightbox-plus/js/jquery.colorbox.1.3.32.js?ver=1.3.32"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "17,5 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "68 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Сжатие страницы {{URL}} уменьшит ее размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "4 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "57 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Сжатие страницы {{URL}} уменьшит ее размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/plugins/lightbox-plus/css/elegant/colorbox.css?ver=2.6"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "3,4 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "69 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Сжатие страницы {{URL}} уменьшит ее размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/plugins/wp-polls/polls-js.js?ver=2.63"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "3,2 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "82 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Сжатие страницы {{URL}} уменьшит ее размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/plugins/wp-polls/polls-css.css?ver=2.63"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "1,9 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "73 %"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "LeverageBrowserCaching": {
+    "localizedRuleName": "Используйте кеш браузера",
+    "ruleImpact": 17.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Если указывать в заголовках HTTP дату или срок действия статических ресурсов, браузер будет загружать уже полученные ранее ресурсы с локального диска, а не из Интернета."
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Используйте кеш браузера{{END_LINK}} для следующих ресурсов:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/LeverageBrowserCaching"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/gallery/studauthem2018/1.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/gallery/studauthem2018/2.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/gallery/studauthem2018/HBA0ROD5-Y0.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/plugins/lightbox-plus/css/elegant/images/overlay.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/themes/kn/assets/app.bundle.js"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/themes/kn/assets/quote.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/themes/kn/assets/speech-bubble.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/themes/kn/src/images/fedosova.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/themes/kn/src/images/logo.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/themes/kn/src/images/slide.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/themes/kn/style.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2017/06/ds.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2017/06/eir.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2017/06/lib.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2017/06/ntb.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2017/06/profcom.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2017/06/pstu.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2017/06/senat.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2017/06/umm.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2017/10/P50419763.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2017/10/PC011906-e1421266662663.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2017/12/logo-ny.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2018/03/8marta.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2018/04/11.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2018/04/12.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2018/04/13.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2018/04/2.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2018/04/IMG_0002.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2018/04/P4020290.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2018/04/P4020328.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2018/04/P4020335.jpg"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2018/05/11.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2018/05/1111.png"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}} (не указан срок действия)",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2018/05/2-1.jpg"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MainResourceServerResponseTime": {
+    "localizedRuleName": "Сократите время ответа сервера",
+    "ruleImpact": 5.12,
+    "groups": [
+     "SPEED"
+    ],
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "По результатам тестирования время ответа вашего сервера составило {{RESPONSE_TIME}}. На этот показатель влияет много факторов. {{BEGIN_LINK}}Ознакомьтесь с нашими рекомендациями{{END_LINK}} и узнайте, как можно отслеживать и измерять время ответа.",
+       "args": [
+        {
+         "type": "DURATION",
+         "key": "RESPONSE_TIME",
+         "value": "0,71 секунды"
+        },
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/Server"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "MinifyCss": {
+    "localizedRuleName": "Сократите CSS",
+    "ruleImpact": 0.2008,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Сжатие кода CSS позволяет сократить объем данных, чтобы ускорить загрузку и обработку."
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Сократите код CSS{{END_LINK}} на следующих ресурсах, чтобы уменьшить их размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+        },
+        {
+         "type": "BYTES",
+         "key": "SIZE_IN_BYTES",
+         "value": "2 КБ"
+        },
+        {
+         "type": "PERCENTAGE",
+         "key": "PERCENTAGE",
+         "value": "26 %"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Сокращение {{URL}} позволит уменьшить размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/plugins/lightbox-plus/css/elegant/colorbox.css?ver=2.6"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "1 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "22 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Сокращение {{URL}} позволит уменьшить размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/plugins/wp-polls/polls-css.css?ver=2.63"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "946 Б"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "35 %"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MinifyHTML": {
+    "localizedRuleName": "Сократите HTML",
+    "ruleImpact": 0.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "HTML-код сокращен. Подробнее о том, {{BEGIN_LINK}}как сокращать HTML-код{{END_LINK}}.",
+     "args": [
+      {
+       "type": "HYPERLINK",
+       "key": "LINK",
+       "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+      }
+     ]
+    }
+   },
+   "MinifyJavaScript": {
+    "localizedRuleName": "Сократите JavaScript",
+    "ruleImpact": 0.9653,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Сжатие кода JavaScript позволяет сократить объем данных, чтобы ускорить загрузку, обработку и выполнение."
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Сократите код JavaScript{{END_LINK}} на следующих ресурсах, чтобы уменьшить их размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+        },
+        {
+         "type": "BYTES",
+         "key": "SIZE_IN_BYTES",
+         "value": "9,4 КБ"
+        },
+        {
+         "type": "PERCENTAGE",
+         "key": "PERCENTAGE",
+         "value": "38 %"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Сокращение {{URL}} позволит уменьшить размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/plugins/lightbox-plus/js/jquery.colorbox.1.3.32.js?ver=1.3.32"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "9,4 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "38 %"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "MinimizeRenderBlockingResources": {
+    "localizedRuleName": "Удалите код JavaScript и CSS, блокирующий отображение верхней части страницы",
+    "ruleImpact": 12.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Количество блокирующих скриптов на странице: {{NUM_SCRIPTS}}. Количество блокирующих ресурсов CSS на странице: {{NUM_CSS}}. Они замедляют отображение контента.",
+     "args": [
+      {
+       "type": "INT_LITERAL",
+       "key": "NUM_SCRIPTS",
+       "value": "5"
+      },
+      {
+       "type": "INT_LITERAL",
+       "key": "NUM_CSS",
+       "value": "3"
+      }
+     ]
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Все содержание верхней части страницы отображается только после загрузки указанных далее ресурсов. Попробуйте отложить загрузку этих ресурсов, загружать их асинхронно или встроить их самые важные компоненты непосредственно в код HTML."
+      }
+     },
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Удалите код JavaScript, препятствующий отображению{{END_LINK}}:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/BlockingJS"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "{{URL}}",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-includes/js/jquery/jquery.js?ver=1.10.2"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}}",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}}",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/plugins/wp-polls/polls-js.js?ver=2.63"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}}",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/plugins/lightbox-plus/js/jquery.colorbox.1.3.32.js?ver=1.3.32"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}}",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/themes/kn/assets/app.bundle.js"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Оптимизируйте работу CSS{{END_LINK}} на следующих ресурсах:",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "{{URL}}",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/themes/kn/style.css"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}}",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/plugins/wp-polls/polls-css.css?ver=2.63"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "{{URL}}",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/plugins/lightbox-plus/css/elegant/colorbox.css?ver=2.6"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "OptimizeImages": {
+    "localizedRuleName": "Оптимизируйте изображения",
+    "ruleImpact": 1871.7620000000004,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Правильный формат и сжатие изображений позволяет сократить их объем."
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "{{BEGIN_LINK}}Оптимизируйте следующие изображения{{END_LINK}}, чтобы уменьшить их размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+       "args": [
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/OptimizeImages"
+        },
+        {
+         "type": "BYTES",
+         "key": "SIZE_IN_BYTES",
+         "value": "17,9 МБ"
+        },
+        {
+         "type": "PERCENTAGE",
+         "key": "PERCENTAGE",
+         "value": "96 %"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Изменение размера и сжатие изображения по адресу {{URL}} уменьшит его на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2018/04/IMG_0002.jpg"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "4,8 МБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "99 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Изменение размера и сжатие изображения по адресу {{URL}} уменьшит его на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2018/04/P4020335.jpg"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "2,7 МБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "99 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Изменение размера и сжатие изображения по адресу {{URL}} уменьшит его на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2018/04/P4020328.jpg"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "2,2 МБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "98 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Изменение размера и сжатие изображения по адресу {{URL}} уменьшит его на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2018/04/P4020290.jpg"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "1,6 МБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "98 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Изменение размера и сжатие изображения по адресу {{URL}} уменьшит его на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2018/04/12.jpg"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "1,2 МБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "98 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Изменение размера и сжатие изображения по адресу {{URL}} уменьшит его на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/gallery/studauthem2018/HBA0ROD5-Y0.jpg"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "1,2 МБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "98 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Изменение размера и сжатие изображения по адресу {{URL}} уменьшит его на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2018/04/13.jpg"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "1,2 МБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "99 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Изменение размера и сжатие изображения по адресу {{URL}} уменьшит его на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2018/04/11.jpg"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "1,1 МБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "99 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Изменение размера и сжатие изображения по адресу {{URL}} уменьшит его на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/gallery/studauthem2018/1.jpg"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "808,8 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "98 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Изменение размера и сжатие изображения по адресу {{URL}} уменьшит его на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/gallery/studauthem2018/2.jpg"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "381,3 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "97 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Сжатие страницы {{URL}} уменьшит ее размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2018/05/2-1.jpg"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "236,4 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "61 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Изменение размера и сжатие изображения по адресу {{URL}} уменьшит его на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2018/05/11.png"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "177 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "66 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Изменение размера и сжатие изображения по адресу {{URL}} уменьшит его на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2017/10/PC011906-e1421266662663.jpg"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "99,2 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "93 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Изменение размера и сжатие изображения по адресу {{URL}} уменьшит его на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2017/06/umm.png"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "49 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "90 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Изменение размера и сжатие изображения по адресу {{URL}} уменьшит его на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2017/06/eir.png"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "46,3 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "91 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Изменение размера и сжатие изображения по адресу {{URL}} уменьшит его на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2017/06/ntb.png"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "45,3 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "91 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Сжатие страницы {{URL}} уменьшит ее размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2017/10/P50419763.jpg"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "34,6 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "67 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Сжатие страницы {{URL}} уменьшит ее размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2018/03/8marta.jpg"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "32,6 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "44 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Сжатие страницы {{URL}} уменьшит ее размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2017/06/pstu.png"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "21,5 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "52 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Сжатие страницы {{URL}} уменьшит ее размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2017/06/profcom.png"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "20,2 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "51 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Сжатие страницы {{URL}} уменьшит ее размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2017/06/senat.png"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "19,7 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "58 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Сжатие страницы {{URL}} уменьшит ее размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2017/06/lib.png"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "19,3 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "59 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Сжатие страницы {{URL}} уменьшит ее размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2017/06/ds.png"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "19,1 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "67 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Сжатие страницы {{URL}} уменьшит ее размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2018/05/1111.png"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "14,9 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "38 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Сжатие страницы {{URL}} уменьшит ее размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/uploads/2017/12/logo-ny.png"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "11,9 КБ"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "31 %"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Сжатие страницы {{URL}} уменьшит ее размер на {{SIZE_IN_BYTES}} ({{PERCENTAGE}}).",
+         "args": [
+          {
+           "type": "URL",
+           "key": "URL",
+           "value": "http://kn.pstu.edu/wp-content/themes/kn/assets/quote.png"
+          },
+          {
+           "type": "BYTES",
+           "key": "SIZE_IN_BYTES",
+           "value": "170 Б"
+          },
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "16 %"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "PrioritizeVisibleContent": {
+    "localizedRuleName": "Оптимизируйте загрузку видимого контента",
+    "ruleImpact": 2.0,
+    "groups": [
+     "SPEED"
+    ],
+    "summary": {
+     "format": "Для отображения верхней части страницы необходимы дополнительные сетевые запросы. Сократите объем HTML-кода в верхней части страницы, чтобы она быстрее открывалась в браузере."
+    },
+    "urlBlocks": [
+     {
+      "header": {
+       "format": "Для показа верхней части страницы понадобилось {{SIZE_IN_BYTES}} данных с сервера, содержащих код HTML. Количество циклов передачи данных от пользователя на сервер и обратно: {{NUM_ROUND_TRIPS}}. Количество циклов обмена данными с сервером, достаточное для передачи сжатого ответа сервера, содержащего код HTML: {{NUM_COMPRESSED_ROUND_TRIPS}}. {{BEGIN_LINK}}Используйте сжатие{{END_LINK}} кода HTML, получаемого с сервера, чтобы отображать содержание этой страницы.",
+       "args": [
+        {
+         "type": "BYTES",
+         "key": "SIZE_IN_BYTES",
+         "value": "54,2 КБ"
+        },
+        {
+         "type": "INT_LITERAL",
+         "key": "NUM_ROUND_TRIPS",
+         "value": "3"
+        },
+        {
+         "type": "INT_LITERAL",
+         "key": "NUM_COMPRESSED_ROUND_TRIPS",
+         "value": "1"
+        },
+        {
+         "type": "HYPERLINK",
+         "key": "LINK",
+         "value": "https://developers.google.com/speed/docs/insights/EnableCompression"
+        }
+       ]
+      },
+      "urls": [
+       {
+        "result": {
+         "format": "Удалось отобразить только {{PERCENTAGE}} от всего объема контента из верхней части страницы. Количество загрузок: {{NUM_ROUND_TRIPS}}.",
+         "args": [
+          {
+           "type": "PERCENTAGE",
+           "key": "PERCENTAGE",
+           "value": "33 %"
+          },
+          {
+           "type": "INT_LITERAL",
+           "key": "NUM_ROUND_TRIPS",
+           "value": "2"
+          }
+         ]
+        }
+       },
+       {
+        "result": {
+         "format": "Нажмите, чтобы увидеть скриншот с загрузками ({{MAX_NUM_ROUND_TRIPS_ALLOWED}}): {{SCREENSHOT}}",
+         "args": [
+          {
+           "type": "INT_LITERAL",
+           "key": "MAX_NUM_ROUND_TRIPS_ALLOWED",
+           "value": "2"
+          },
+          {
+           "type": "SNAPSHOT_RECT",
+           "key": "SCREENSHOT",
+           "value": "snapshot:7"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "version": {
+  "major": 1,
+  "minor": 15
+ }
+}
